@@ -1,0 +1,56 @@
+﻿:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    font-family: helvetica;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontcolor);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.light-theme {
+    --bg: var(--green); /* Define o fundo como verde no tema claro */
+    --fontcolor: var(--black); /* Define a cor da fonte como preta no tema claro */
+    --btnBg: var(--black); /* Define a cor do fundo do botão como preto no tema claro */
+    --btnFontColor: var(--white); /* Define a cor da fonte do botão como branca no tema claro */
+}
+
+.dark-theme {
+    --bg: var(--black); /* Define o fundo como preto no tema escuro */
+    --fontcolor: var(--green); /* Define a cor da fonte como verde no tema escuro */
+    --btnBg: var(--white); /* Define a cor do fundo do botão como branco no tema escuro */
+    --btnFontColor: var(--black); /* Define a cor da fonte do botão como preta no tema escuro */
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
