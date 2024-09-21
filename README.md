@@ -13,6 +13,7 @@ Como Usar?
 Clone o repositório.
 Abra index.html em um navegador.
 Clique no botão para alternar os temas.
+Caso preferir, acessar o projeto online em https://themes-javascript.vercel.app/
 
 
 Contribuição: Contribuições são bem-vindas! Abra uma issue ou envie um pull request.
